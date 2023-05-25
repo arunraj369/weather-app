@@ -1,0 +1,19 @@
+<div class="container">
+  <h1 class="justify-content-center text-center">Weather App</h1>
+  <div class="card d-flex justify-content-center text-center">
+    <div class="justify-content-center text-center">
+      <input type="text" #box placeholder="Enter City Name" />
+      <button (click)="getvalue(box.value)" class="btn btn-primary">
+        check
+      </button>
+    </div>
+    <div class="text-center">
+      <h1>City = {{ city }}</h1>
+      <p>Temperature = {{ temperature }}</p>
+      <p>Humidity = {{ humitidy }}</p>
+      <p>pressure ={{ pressure }}</p>
+      <p>Max temp = {{ maxtemp }}</p>
+      <p>Min temp = {{ mintemp }}</p>
+    </div>
+  </div>
+</div>

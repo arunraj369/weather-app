@@ -1,0 +1,10 @@
+.container {
+  background-color: aqua;
+  height: 100vh;
+}
+.card {
+  width: 70%;
+  padding: 9%;
+  margin-left: 10%;
+  background-color: antiquewhite;
+}
